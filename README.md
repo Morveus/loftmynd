@@ -5,7 +5,8 @@ Loftmynd ("lawft-mint" means "aerial" in Icelandic) is a work-in-progress projec
 It's a personal project aimed at being deployed on tablets in my home, that's been in the back of my mind for a long time.
 
 ![Current PoC status](https://user-images.githubusercontent.com/2972468/227182864-cb642495-6e7f-4b2a-b4f9-a653e62138ad.gif)
-(example here, with a Sketchup to FBX export)
+
+(current example, features a Sketchup to FBX export)
 
 ⚠️This project is only a few hours old ⚠️
 
