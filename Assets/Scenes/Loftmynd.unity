@@ -4516,7 +4516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 0.5
-  pinchSpeed: 1
+  pinchSpeed: 0.5
   minZoom: 2
   maxZoom: 40
 --- !u!1 &982617563
