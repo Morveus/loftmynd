@@ -6,8 +6,6 @@ Loftmynd ("aerial" in Icelandic) is a work-in-progress project that aims to prov
 
 ⚠️Please note that noting has been implemented yet apart from camera controls ⚠️
 
-https://user-images.githubusercontent.com/2972468/227178016-5aa2115b-dcda-4b6e-bee0-ab72625e5e63.mp4
-
 ## Table of Contents
 
 1. [Features](#features)
