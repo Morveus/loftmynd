@@ -2,8 +2,8 @@
     "m_SelectedDeviceId": "192.168.1.80:5555",
     "m_SelectedPackage": {
         "deviceId": "192.168.1.80:5555",
-        "name": "com.DefaultCompany.Myproject",
-        "processId": 2814,
+        "name": "com.Morveus.Loftmynd",
+        "processId": 32767,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,55 +11,55 @@
         {
             "deviceId": "192.168.1.80:5555",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 17720,
-            "exited": false
+            "processId": 8045,
+            "exited": true
         },
         {
             "deviceId": "192.168.1.80:5555",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 19123,
-            "exited": false
+            "processId": 8482,
+            "exited": true
         },
         {
             "deviceId": "192.168.1.80:5555",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 19653,
-            "exited": false
+            "processId": 30823,
+            "exited": true
         },
         {
             "deviceId": "192.168.1.80:5555",
             "name": "com.DefaultCompany.Myproject",
-            "processId": 20955,
+            "processId": 4930,
             "exited": false
         },
         {
             "deviceId": "192.168.1.80:5555",
-            "name": "com.DefaultCompany.Myproject",
-            "processId": 27011,
+            "name": "com.Morveus.Loftmynd",
+            "processId": 9856,
+            "exited": true
+        },
+        {
+            "deviceId": "192.168.1.80:5555",
+            "name": "com.sec.android.app.launcher",
+            "processId": 4535,
             "exited": false
         },
         {
             "deviceId": "192.168.1.80:5555",
-            "name": "com.DefaultCompany.Myproject",
-            "processId": 27854,
+            "name": "com.Morveus.Loftmynd",
+            "processId": 22180,
             "exited": false
         },
         {
             "deviceId": "192.168.1.80:5555",
-            "name": "com.DefaultCompany.Myproject",
-            "processId": 28339,
+            "name": "com.Morveus.Loftmynd",
+            "processId": 23461,
             "exited": false
         },
         {
             "deviceId": "192.168.1.80:5555",
-            "name": "com.DefaultCompany.Myproject",
-            "processId": 31533,
-            "exited": false
-        },
-        {
-            "deviceId": "192.168.1.80:5555",
-            "name": "com.DefaultCompany.Myproject",
-            "processId": 2814,
+            "name": "com.Morveus.Loftmynd",
+            "processId": 32767,
             "exited": false
         }
     ],
@@ -114,7 +114,7 @@
         "Behavior": 0
     },
     "m_FilterOptions": {
-        "m_Filter": "",
+        "m_Filter": "loft",
         "m_UseRegularExpressions": false,
         "m_MatchCase": false
     },

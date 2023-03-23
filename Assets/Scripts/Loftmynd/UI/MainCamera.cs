@@ -12,8 +12,11 @@ namespace Loftmynd.UI
         public float minZoom = 2f;
         public float maxZoom = 40f;
 
+        public float mouseMoveSpeedMultiplier = 20;
+
         // To compensate for the mouse much slower move speed
         private float effectiveMoveSpeed;
+        private float effectivePinchSpeed;
 
         private Camera mainCamera;
         private Vector2 touchPrevPos;
@@ -26,13 +29,15 @@ namespace Loftmynd.UI
         void Update()
         {
             effectiveMoveSpeed = moveSpeed;
+            effectivePinchSpeed = pinchSpeed;
             if (Input.touchSupported && Input.touchCount > 0)
             {
                 HandleTouchInput();
             }
             else
             {
-                effectiveMoveSpeed = moveSpeed * 10;
+                effectiveMoveSpeed = moveSpeed * mouseMoveSpeedMultiplier;
+                effectivePinchSpeed = pinchSpeed * 20;
                 HandleMouseInput();
             }
         }
@@ -60,7 +65,7 @@ namespace Loftmynd.UI
 
             if (Input.mouseScrollDelta.y != 0)
             {
-                float newY = mainCamera.transform.position.y - Input.mouseScrollDelta.y * pinchSpeed;
+                float newY = mainCamera.transform.position.y - Input.mouseScrollDelta.y * effectivePinchSpeed;
                 newY = Mathf.Clamp(newY, minZoom, maxZoom);
                 mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, newY, mainCamera.transform.position.z);
             }
@@ -86,7 +91,7 @@ namespace Loftmynd.UI
 
                 float deltaMagnitudeDiff = prevTouchDeltaMagnitude - touchDeltaMagnitude;
 
-                float newY = mainCamera.transform.position.y + deltaMagnitudeDiff * pinchSpeed;
+                float newY = mainCamera.transform.position.y + deltaMagnitudeDiff * effectivePinchSpeed;
                 newY = Mathf.Clamp(newY, minZoom, maxZoom);
                 mainCamera.transform.position = new Vector3(mainCamera.transform.position.x, newY, mainCamera.transform.position.z);
             }
