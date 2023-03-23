@@ -4,7 +4,7 @@ Loftmynd ("aerial" in Icelandic) is a work-in-progress project that aims to prov
 
 It's a personal project aimed at being deployed on tablets in my home, that's been in the back of my mind for a long time.
 
-[Screen_Recording_20230323_113429_Loftmynd.webm](https://user-images.githubusercontent.com/2972468/227179536-a2ab3e04-a0d5-4138-a0b6-d9e9a10a291d.webm)
+![Projet_03-23_SD-360p_MEDIUM_FR25](https://user-images.githubusercontent.com/2972468/227182864-cb642495-6e7f-4b2a-b4f9-a653e62138ad.gif)
 
 ⚠️This project is only a few hours old ⚠️
 
