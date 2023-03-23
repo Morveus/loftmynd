@@ -1,12 +1,12 @@
 # Loftmynd ("lawft-mint")
 
-![Logo appli](https://user-images.githubusercontent.com/2972468/227187378-7cd56309-b912-4eaa-9608-62e96435d933.png)
+![App Logo (my home!)](https://user-images.githubusercontent.com/2972468/227187551-e6aceb87-9a47-439a-af6b-c742ae7117d6.png)
 
 Loftmynd ("lawft-mint" means "aerial" in Icelandic) is a work-in-progress project that aims to provide a 3D environment for home automation, leveraging the power of HomeAssistant for its backend. The project targets both iOS and Android platforms utilizing Unity 2021.3.16f1 for development.
 
 It's a personal project aimed at being deployed on tablets in my home, that's been in the back of my mind for a long time.
 
-![Projet_03-23_SD-360p_MEDIUM_FR25](https://user-images.githubusercontent.com/2972468/227182864-cb642495-6e7f-4b2a-b4f9-a653e62138ad.gif)
+![Current PoC status](https://user-images.githubusercontent.com/2972468/227182864-cb642495-6e7f-4b2a-b4f9-a653e62138ad.gif)
 
 ⚠️This project is only a few hours old ⚠️
 
