@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "192.168.1.80:5555",
         "name": "com.Morveus.Loftmynd",
-        "processId": 32767,
+        "processId": 15299,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -60,6 +60,18 @@
             "deviceId": "192.168.1.80:5555",
             "name": "com.Morveus.Loftmynd",
             "processId": 32767,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.1.80:5555",
+            "name": "com.Morveus.Loftmynd",
+            "processId": 5252,
+            "exited": false
+        },
+        {
+            "deviceId": "192.168.1.80:5555",
+            "name": "com.Morveus.Loftmynd",
+            "processId": 15299,
             "exited": false
         }
     ],
